@@ -17,7 +17,7 @@
 - **언어:** Java  
 - **GUI 라이브러리:** Swing and JFreeChart and Gson
 - **API 연동:** REST API (HttpURLConnection)  
-- **IDE: IntelliJ IDEA 
+- IDE: IntelliJ IDEA 
 
 ## 📸 실행 화면
 ![image](https://github.com/user-attachments/assets/b6daadaf-c4b7-4ac7-b8f7-401e019b434a)
