@@ -12,8 +12,8 @@ public class DatabaseConnectionManager {
 
     // DB 정보 기입
     static final String DB_URL = "jdbc:mysql://localhost:3306/weather?serverTimezone=Asia/Seoul&useSSL=false&allowPublicKeyRetrieval=true";
-    static final String DB_ID = "root";
-    static final String DB_PASSWORD = "0000";
+    static final String DB_ID = "DB_ID";
+    static final String DB_PASSWORD = "DB_PASSWORD";
 
     public Connection getConnection() {
         // JDBC 드라이브 연결
