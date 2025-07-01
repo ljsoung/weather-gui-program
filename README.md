@@ -56,13 +56,13 @@
 - ソケット通信を使用し、クライアントとサーバー間でリアルタイムにデータのリクエストおよびレスポンスを処理
 
 ## 🛠️ 技術スタック
-- 分類 - 技術スタック
-- 言語 - Java
-- GUI - Swing, JFreeChart
-- API連携 - REST API（HttpURLConnection）、Gson
-- データベース - MySQL（検索履歴の保存）
-- ネットワーク - ソケット通信（クライアント・サーバー通信）
-- IDE - IntelliJ IDEA
+- 分類 | 技術スタック
+- 言語 | Java
+- GUI | Swing, JFreeChart
+- API連携 | REST API（HttpURLConnection）、Gson
+- データベース | MySQL（検索履歴の保存）
+- ネットワーク | ソケット通信（クライアント・サーバー通信）
+- IDE | IntelliJ IDEA
 
 ## 🔧 実行手順
 1️⃣ MySQL データベースの設定
