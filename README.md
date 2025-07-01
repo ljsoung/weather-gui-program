@@ -39,6 +39,50 @@
 3️⃣ **프로그램 실행**
 - IntelliJ 또는 Eclipse에서 Server 클래스의 `main()`을 실행하고 Client 클래스의 `main()`을 실행하세요.
 
+---
+
+🌦 Java GUI ベースの天気情報表示アプリケーション
+📌 プロジェクト概要
+公共データポータルのAPIを活用して、GUIベースの天気情報アプリケーションを開発
+
+Javaの Swing を使用してGUIを構成し、APIからリアルタイムの天気データを取得
+
+**天気データを視覚的に表示（アイコン付き）**し、ユーザーの利便性を向上
+
+📜 主な機能
+✅ ユーザーの入力に基づいて特定地域の天気情報を取得
+✅ API連携（気象庁またはOpenWeather APIを使用）
+✅ GUI画面に温度、天気状態（晴れ、曇りなど）をアイコン付きで表示
+✅ 例外処理（ネットワークエラーや無効な入力を防止）
+✅ MySQLデータベースを使用して検索履歴や地域データを管理
+✅ ソケット通信を使用し、クライアントとサーバー間でリアルタイムにデータのリクエストおよびレスポンスを処理
+
+🛠️ 技術スタック
+分類	技術スタック
+言語	Java
+GUI	Swing, JFreeChart
+API連携	REST API（HttpURLConnection）、Gson
+データベース	MySQL（検索履歴の保存）
+ネットワーク	ソケット通信（クライアント・サーバー通信）
+IDE	IntelliJ IDEA
+
+🔧 実行手順
+1️⃣ MySQL データベースの設定
+
+MySQLをインストールして実行します。
+
+データベースのユーザーIDを「root」に設定します。
+
+パスワードは「0000」に設定します。
+
+2️⃣ SQLファイルの実行
+
+.sql ファイルを実行し、テーブルを作成して初期データを挿入します。
+
+3️⃣ プログラムの実行
+
+IntelliJ または Eclipse にて、Server クラスの main() を実行し、その後 Client クラスの main() を実行してください。
+
 ## 📸 실행 화면
 ![image](https://github.com/user-attachments/assets/b6daadaf-c4b7-4ac7-b8f7-401e019b434a)
 ![image](https://github.com/user-attachments/assets/795253b3-aa20-4ade-b874-10d2d16a1431)
